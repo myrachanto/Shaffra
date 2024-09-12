@@ -15,24 +15,21 @@ This repository provides a User Microservice featuring CRUD operations, concurre
 To get started with the User Microservice, follow these steps:
 
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/myrachanto/Shaffra
-   ```
+```bash
+ git clone https://github.com/myrachanto/Shaffra
+```
 Navigate to the User Directory:
 
-bash
-Copy code
 cd Shaffra/user
+
 Run the Service:
 
-bash
-Copy code
+  ```bash
 make run
+```
 Build Docker Image: The repository includes a Dockerfile. To build the Docker image, use:
 
-bash
-Copy code
-```
+ ```bash
 make dockerize
 ```
 
@@ -55,6 +52,3 @@ Documentation
 
 API Documentation: Detailed API endpoints and usage are documented within the service.
 Design Documentation: Available in the design directory, outlining the architecture and design decisions for the e-commerce platform.
-Contributing
-
-Feel free to contribute to the project by submitting issues or pull requests. For detailed contribution guidelines, refer to the CONTRIBUTING.md file.
